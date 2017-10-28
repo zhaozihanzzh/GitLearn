@@ -23,3 +23,6 @@ git tag -a ［标签名］ （提交校验和） （-m “附注”） 以校验
 git tag -d ［标签名］ 删除标签
 git show ［标签名］ 显示该标签的信息以及对应提交
 git config --global alias.［命令别名］ ［'正常命令名'］ 为某一命令创建别名
+git checkout ［分支名］ 切换到某一个分支
+git checkout -b ［新分支名］ ［标签］ 在特定的标签上创建一个新分支
+git checkout -b ［新分支名］ 新建一个分支并切换到这个新分支上
